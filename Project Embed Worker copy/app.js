@@ -10,7 +10,7 @@ const Embed = require('./models/embed')
 app.use(bodyParser.json())
 app.use('/', express.static(path.join(__dirname, 'static')))
 
-mongoose.connect('mongodb+srv://Techy:r4KiOjZAE48EGDwz@techydev.wdu1c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://Techy:password@techydev.wdu1c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, () => {
